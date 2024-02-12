@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "probability-calculator"
+version = "0.1.0"
+description = ""
+authors = ["Mihamina Rakotovazaha <r.miham@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "probability_calculator", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+pylint = "^3.0.3"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
